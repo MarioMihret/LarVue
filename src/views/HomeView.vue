@@ -7,7 +7,7 @@ const authStore = useAuthStore()
 
 <template>
   <div class="min-h-screen bg-white">
-    <!-- Header -->
+
     <header class="bg-white border-b border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center py-4">
@@ -44,7 +44,7 @@ const authStore = useAuthStore()
       </div>
     </header>
 
-    <!-- Hero Section -->
+>
     <section class="relative bg-gradient-to-b from-gray-50 to-white pt-20 pb-32">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
@@ -71,7 +71,7 @@ const authStore = useAuthStore()
       </div>
     </section>
 
-    <!-- Features Section -->
+ 
     <section class="py-24 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
@@ -120,7 +120,7 @@ const authStore = useAuthStore()
             </p>
           </div>
 
-          <!-- QR Code Menus -->
+
           <div class="p-8 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow duration-200">
             <div class="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center mb-6">
               <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -165,7 +165,7 @@ const authStore = useAuthStore()
       </div>
     </section>
 
-    <!-- Footer -->
+
     <footer class="bg-gray-50 border-t border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid md:grid-cols-4 gap-8 mb-8">
@@ -175,7 +175,7 @@ const authStore = useAuthStore()
             <p class="text-gray-600 text-sm">Restaurant management made simple and efficient.</p>
           </div>
 
-          <!-- Product -->
+   
           <div>
             <h4 class="font-semibold text-gray-900 mb-4">Product</h4>
             <ul class="space-y-2 text-sm text-gray-600">
@@ -195,7 +195,7 @@ const authStore = useAuthStore()
             </ul>
           </div>
 
-          <!-- Support -->
+
           <div>
             <h4 class="font-semibold text-gray-900 mb-4">Support</h4>
             <ul class="space-y-2 text-sm text-gray-600">
@@ -206,7 +206,7 @@ const authStore = useAuthStore()
           </div>
         </div>
 
-        <!-- Copyright -->
+    
         <div class="pt-8 border-t border-gray-200">
           <p class="text-center text-sm text-gray-500">© 2025 LarVue. All rights reserved.</p>
         </div>
